@@ -12,7 +12,7 @@ Docx template manipulation class for Laravel 5.8, based on [mustache templating 
 This package helps you to use docx files with mustache syntax as templates to merge richly styled documents with information from any data source. It can replace text and images and supports basic html styling (bold, itallic, underline).
 
 ## Installation
-`composer require uykalkan/docxmustache`
+`composer require uykalkan/docxmustache:dev-master --prefer-source`
 
 Please check depencies down below and examples folder for configuration and usage.
 
