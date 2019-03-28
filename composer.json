@@ -1,21 +1,21 @@
 {
-    "name": "wrklst/docxmustache",
+    "name": "uykalkan/docxmustache",
     "description": "docx template manipulation class, based on mustache templating language",
     "keywords": ["laravel", "docx", "openxml", "template", "mustache", "php"],
     "require": {
         "php" : ">=5.3.0",
-        "illuminate/support": "5.0.x|5.1.x|5.2.x|5.3.x|5.4.x|5.5.x|5.6.x|5.7.x",
-        "illuminate/filesystem": "5.0.x|5.1.x|5.2.x|5.3.x|5.4.x|5.5.x|5.6.x|5.7.x",
+        "illuminate/support": "5.0.x|5.1.x|5.2.x|5.3.x|5.4.x|5.5.x|5.6.x|5.7.x|5.8.x",
+        "illuminate/filesystem": "5.0.x|5.1.x|5.2.x|5.3.x|5.4.x|5.5.x|5.6.x|5.7.x|5.8.x",
         "chumper/zipper": "^1.0",
         "mustache/mustache": "^2.11",
         "intervention/image": "^2.3"
     },
-    "homepage" : "https://github.com/wrklst/docxmustache",
+    "homepage" : "https://github.com/uykalkan/docxmustache",
     "license": "MIT",
     "authors": [
         {
-            "name": "Tobias Vielmetter-Diekmann",
-            "email": "tobias@wrklst.art"
+            "name": "Ümit Yaşar Kalkan",
+            "email": "uykalkan@gmail.com"
         }
     ],
     "autoload" : {
