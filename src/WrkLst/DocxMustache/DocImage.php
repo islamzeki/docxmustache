@@ -79,6 +79,9 @@ class DocImage
             $constraint->aspectRatio();
             $constraint->upsize();
         });
+
+        $img_rework = \Image::canvas($img_rework->width(), $img_rework->height(), null)->insert($img_rework, 'center');
+        
         $new_height = $img_rework->height();
         $new_width = $img_rework->width();
 
