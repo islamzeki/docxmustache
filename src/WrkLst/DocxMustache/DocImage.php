@@ -91,7 +91,7 @@ class DocImage
                 $constraint->aspectRatio();
                 $constraint->upsize();
             });
-            $img_rework2->save($parent->StoragePath($parent->local_path.'word/media/'.$imgs[$k]['img_file_dest']));
+            $img_rework2->encode('png', 100)->save($parent->StoragePath($parent->local_path.'word/media/'.$imgs[$k]['img_file_dest']));
 
         //set dpi of image to high dpi
             /*$im = new \imagick();
@@ -102,7 +102,7 @@ class DocImage
             $im->destroy();
             */
         } else {
-            $img_rework->save($parent->StoragePath($parent->local_path.'word/media/'.$imgs[$k]['img_file_dest']));
+            $img_rework->encode('png', 100)->save($parent->StoragePath($parent->local_path.'word/media/'.$imgs[$k]['img_file_dest']));
         }
 
         $parent->zipper->folder('word/media')->add($parent->StoragePath($parent->local_path.'word/media/'.$imgs[$k]['img_file_dest']));
