@@ -1,20 +1,20 @@
 {
-    "name": "uykalkan/docxmustache",
+    "name": "islamzeki/docxmustache",
     "description": "docx template manipulation class, based on mustache templating language",
     "keywords": ["laravel", "docx", "openxml", "template", "mustache", "php"],
     "require": {
         "php" : ">=5.3.0",
-        "illuminate/support": "^5.0",
+        "illuminate/support": "^5.0|^6.0",
         "chumper/zipper": "^1.0",
         "mustache/mustache": "^2.12",
         "intervention/image": "^2.4"
     },
-    "homepage" : "https://github.com/uykalkan/docxmustache",
+    "homepage" : "https://github.com/islamzeki/docxmustache",
     "license": "MIT",
     "authors": [
         {
-            "name": "Ümit Yaşar Kalkan",
-            "email": "uykalkan@gmail.com"
+            "name": "İslam Zeki Aksu",
+            "email": "islamzeki@islamzeki.com.tr"
         }
     ],
     "autoload" : {
