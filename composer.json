@@ -5,7 +5,7 @@
     "require": {
         "php" : ">=5.3.0",
         "illuminate/support": "^5.0|^6.0",
-        "chumper/zipper": "^1.0",
+        "dariusiii/zipper": "^2.0",
         "mustache/mustache": "^2.12",
         "intervention/image": "^2.4"
     },
